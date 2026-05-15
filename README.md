@@ -26,24 +26,19 @@ If your dataset name or path differs, update the `DATA_PATH` in `edaBook.ipynb`.
 ---
 
 ## CUDA / GPU Setup (Windows)
-**Note:** These are instructions only. No system changes were executed.
+**Detected on this machine (via `nvidia-smi` and `nvcc`):**
+- GPU: NVIDIA GeForce RTX 3060 (6GB)
+- Driver: 596.36
+- CUDA Driver API Version: 13.2
+- CUDA Toolkit (nvcc): 13.1
 
-### 1) Install NVIDIA Driver
-- Download and install the latest NVIDIA GPU driver for your card.
-- Verify:
+### Verified commands
 ```bash
 nvidia-smi
-```
-
-### 2) Install CUDA Toolkit
-- Download CUDA Toolkit (12.x recommended) from NVIDIA.
-- Verify:
-```bash
 nvcc --version
 ```
 
-### 3) Optional Python GPU packages
-For GPU acceleration with XGBoost, you can use:
+### Python GPU packages (optional but recommended)
 ```bash
 pip install xgboost
 ```
@@ -52,9 +47,19 @@ Then configure:
 XGBClassifier(tree_method="gpu_hist", predictor="gpu_predictor")
 ```
 
-If you want GPU-enabled PyTorch or CuPy, add:
+Optional GPU stacks (if you need deep learning or GPU arrays):
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 pip install cupy-cuda12x
 ```
 
+### Installed GPU Python stack (verified)
+- PyTorch: 2.6.0+cu124 (CUDA 12.4)
+- TorchVision: 0.21.0+cu124
+- TorchAudio: 2.6.0+cu124
+- CuPy: 14.0.1 (CUDA 12.x)
+
+Verification command:
+```bash
+python -c "import torch, torchvision, torchaudio, cupy; print('torch', torch.__version__, 'cuda', torch.version.cuda); print('cupy', cupy.__version__)"
+```

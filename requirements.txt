@@ -4,8 +4,16 @@ matplotlib
 seaborn
 scikit-learn
 xgboost
+lightgbm
+catboost
 plotly
 ipywidgets
 ydata-profiling
 notebook
-
+jupyterlab
+ipykernel
+setuptools==68.2.2
+torch
+torchvision
+torchaudio
+cupy-cuda12x
