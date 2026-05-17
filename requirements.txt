@@ -8,7 +8,7 @@ lightgbm
 catboost
 plotly
 ipywidgets
-ydata-profiling
+sweetviz
 notebook
 jupyterlab
 ipykernel
