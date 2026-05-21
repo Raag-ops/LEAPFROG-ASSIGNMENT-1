@@ -1,9 +1,11 @@
 # Fdb version 4
-["pdflatex"] 1779114445.82724 "d:/School/LaTex/LEAPFROG/ASSIGNMENT 1/template.tex" "template.pdf" "template" 1779114454.35917 0
+["pdflatex"] 1779272086.13094 "c:/Users/mahar/PycharmProjects/PythonProject2/docs/ASSIGNMENT 1/template.tex" "template.pdf" "template" 1779272094.57186 0
+  "c:/Users/mahar/PycharmProjects/PythonProject2/docs/ASSIGNMENT 1/template.tex" 1779272076 37619 53ecd95f3e390ecde7dbb42c5c57be05 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1766324908 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1766323332 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1766326541 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1766325010 1536 06717a2b50de47d4087ac0e6cd759455 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1766329018 520 4889cce2180234b97cad636b6039c722 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1766359555 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/txfonts/rtxbi.tfm" 1766359555 1056 c120067f0f536f902b8f80d45e16d5b6 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/txfonts/rtxbsc.tfm" 1766359555 1400 b701f007f0e956f3e9cbed202c7136eb ""
@@ -120,6 +122,7 @@
   "c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex" 1766332304 30029 c49ea8f95207c46731469c614daf4e33 ""
   "c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def" 1766332304 7067 11553488d1600cac6a0cfca012fca111 ""
   "c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty" 1766335041 21514 b7557edcee22835ef6b03ede1802dad4 ""
+  "c:/texlive/2025/texmf-dist/tex/generic/ulem/ulem.sty" 1766359723 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty" 1766359864 7008 f92eaa0a3872ed622bbf538217cd2ab7 ""
   "c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex" 1766360590 19299 c7c03646b32f5a7caaa137673b7e76d2 ""
   "c:/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex" 1766360590 7787 7dfc2f158253fc82fd655393220e6620 ""
@@ -209,7 +212,6 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1770299907 5587484 49bd08ff372a6985d7d70778694ddaac ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1770009551 3636162 9f306d628bc9812627206b9aff574269 ""
   "c:/texlive/2025/texmf.cnf" 1766360912 713 e69b156964470283e0530f5060668171 ""
-  "d:/School/LaTex/LEAPFROG/ASSIGNMENT 1/template.tex" 1779114443 36716 faa3f43e559301e1e83bc351b6eaeeea ""
   "images/actual_vs_cluster_comparison.png" 1779007034 719966 7dd5dd11d4892929c7f78bbd08d06e20 ""
   "images/class.png" 1778850027 18404 3dad2149449709d91dcfe9a9a68e0682 ""
   "images/class_distribution.png" 1779089489 62495 56007bc8beda68a5f67a5f15bc11980b ""
@@ -232,10 +234,10 @@
   "images/svm_learning_curve.png" 1779006867 85530 aa3f309beaa1fc0df1fa62507f7743c7 ""
   "images/xgb_accuracy_curve.png" 1779006854 81488 33ded542daf90ed93c7ecfe67b927167 ""
   "images/xgb_feature_importance.png" 1779006855 104681 d89fc6e04ce1d18a0fa0894411bdb0fb ""
-  "preprint.sty" 1774842398 9254 ce22bd621858c9bf39f6ee330017d3f1 ""
-  "template.aux" 1779114454 10375 0263f44e1d47abce7e9d75dd1bfb1174 "pdflatex"
-  "template.out" 1779114454 2600 579e129f66505e65be516b49aadf6e19 "pdflatex"
-  "template.tex" 1779114443 36716 faa3f43e559301e1e83bc351b6eaeeea ""
+  "preprint.sty" 1779272074 9254 ce22bd621858c9bf39f6ee330017d3f1 ""
+  "template.aux" 1779272094 10519 3553d6ba1cd888c58df64e4055989198 "pdflatex"
+  "template.out" 1779272094 2600 579e129f66505e65be516b49aadf6e19 "pdflatex"
+  "template.tex" 1779272076 37619 53ecd95f3e390ecde7dbb42c5c57be05 ""
   (generated)
   "template.aux"
   "template.log"

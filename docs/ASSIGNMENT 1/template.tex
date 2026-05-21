@@ -108,9 +108,25 @@
 
 % Section title spacing  options
 \usepackage{titlesec}
+\usepackage[normalem]{ulem}
 \titlespacing\section{0pt}{12pt plus 3pt minus 3pt}{1pt plus 1pt minus 1pt}
 \titlespacing\subsection{0pt}{10pt plus 3pt minus 3pt}{1pt plus 1pt minus 1pt}
 \titlespacing\subsubsection{0pt}{8pt plus 3pt minus 3pt}{1pt plus 1pt minus 1pt}
+% Underline section and subsection titles while keeping existing styling.
+\makeatletter
+\let\old@section\section
+\renewcommand{\section}{\@ifstar{\section@star}{\section@nostar}}
+\newcommand{\section@nostar}{\@ifnextchar[{\section@nostar@opt}{\section@nostar@noopt}}
+\newcommand{\section@nostar@opt}[2]{\old@section[#1]{\uline{#2}}}
+\newcommand{\section@nostar@noopt}[1]{\old@section{\uline{#1}}}
+\newcommand{\section@star}[1]{\old@section*{\uline{#1}}}
+\let\old@subsection\subsection
+\renewcommand{\subsection}{\@ifstar{\subsection@star}{\subsection@nostar}}
+\newcommand{\subsection@nostar}{\@ifnextchar[{\subsection@nostar@opt}{\subsection@nostar@noopt}}
+\newcommand{\subsection@nostar@opt}[2]{\old@subsection[#1]{\uline{#2}}}
+\newcommand{\subsection@nostar@noopt}[1]{\old@subsection{\uline{#1}}}
+\newcommand{\subsection@star}[1]{\old@subsection*{\uline{#1}}}
+\makeatother
 \renewcommand{\labelitemi}{\raisebox{0.2ex}{\scriptsize$\bullet$}}
 
 \definecolor{lime}{HTML}{A6CE39}
